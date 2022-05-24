@@ -1,6 +1,7 @@
 import logo from "./images/logo.svg";
 import heroImage from "./images/illustration-intro.png";
 import bgCurvyMobile from "./images/bg-curvy-mobile.svg";
+import Button from "./components/Button";
 
 function App() {
   return (
@@ -28,9 +29,7 @@ function App() {
           Access them wherever you need, share and collaborate with friends
           family, and co-workers.
         </p>
-        <button className="mt-8 block rounded-3xl w-60 font-semibold h-12 bg-gradient-to-b from-[#63E1D9] to-[#34A0CD] mx-auto">
-          Get Started
-        </button>
+        <Button text="Get Started" />
       </section>
     </main>
   );
