@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  font-family: "Raleway", sans-serif;
+  color: white;
+}
+
+main {
+  background-color: hsl(217, 28%, 15%);
+}
+
+p {
+  font-family: "Open Sans", sans-serif;
+}
+
+#hero {
+  position: relative;
+  background-image: url("./images/bg-curvy-mobile.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 100;
+}
