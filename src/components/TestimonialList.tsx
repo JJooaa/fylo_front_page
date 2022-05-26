@@ -26,7 +26,10 @@ const testimonialData = [
 
 const TestimonialList = () => {
   return (
-    <section id="customer-testimonials">
+    <section
+      id="customer-testimonials"
+      className="mx-auto flex flex-wrap items-center gap-6 mt-40"
+    >
       {testimonialData.map((testimony) => (
         <Testimonial
           text={testimony.text}

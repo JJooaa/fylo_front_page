@@ -33,7 +33,7 @@ const benefitsItems = [
 
 const BenefitList = () => {
   return (
-    <>
+    <div className="flex flex-col flex-wrap gap-20 mt-36">
       {benefitsItems.map((benefit) => (
         <Benefit
           paragraph={benefit.paragraph}
@@ -41,7 +41,7 @@ const BenefitList = () => {
           image={benefit.image}
         />
       ))}
-    </>
+    </div>
   );
 };
 

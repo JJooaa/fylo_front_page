@@ -6,10 +6,10 @@ interface Props {
 
 const Benefit = ({ paragraph, title, image }: Props) => {
   return (
-    <div>
+    <div className="flex flex-col items-center text-center">
       <img src={image} alt="title" />
-      <h2>{title}</h2>
-      <p>{paragraph}</p>
+      <h2 className="mt-8 font-bold text-xl">{title}</h2>
+      <p className="mt-4 text-sm">{paragraph}</p>
     </div>
   );
 };

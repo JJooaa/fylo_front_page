@@ -2,6 +2,11 @@ import logo from "./images/logo.svg";
 import heroImage from "./images/illustration-intro.png";
 import bgCurvyMobile from "./images/bg-curvy-mobile.svg";
 import Button from "./components/Button";
+import BenefitList from "./components/BenefitList";
+import StayProductive from "./components/StayProductive";
+import TestimonialList from "./components/TestimonialList";
+import EarlyAccess from "./components/EarlyAccess";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -16,11 +21,11 @@ function App() {
           </ul>
         </nav>
       </header>
-      <img
-        src={heroImage}
-        alt="two cartoon characters playing with paper documents"
-      />
       <section id="hero" className="">
+        <img
+          src={heroImage}
+          alt="two cartoon characters playing with paper documents"
+        />
         <h1 className="mt-8 text-2xl font-bold text-center ">
           All your files in one secure location, accessible anywhere.
         </h1>
@@ -31,6 +36,11 @@ function App() {
         </p>
         <Button text="Get Started" />
       </section>
+      <BenefitList />
+      <StayProductive />
+      <TestimonialList />
+      <EarlyAccess />
+      <Footer />
     </main>
   );
 }

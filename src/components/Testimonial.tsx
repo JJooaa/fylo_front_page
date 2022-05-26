@@ -7,13 +7,17 @@ interface Props {
 
 const Testimonial = ({ text, image, name, title }: Props) => {
   return (
-    <div>
-      <blockquote>{text}</blockquote>
-      <div className="flex">
-        <img src={image} alt={`image of ${name}`} />
+    <div className="bg-[#202A3C] mx-auto w-full max-w-[360px] min-h-[160px] rounded-[4px] px-5 py-6 flex flex-col justify-between">
+      <blockquote className="text-xs">{text}</blockquote>
+      <div className="flex items-center gap-3">
+        <img
+          src={image}
+          className="rounded-full h-[26px]"
+          alt={`image of ${name}`}
+        />
         <div>
-          <h4>{name}</h4>
-          <p>{title}</p>
+          <h4 className="text-xs font-bold">{name}</h4>
+          <p className="text-[10px]">{title}</p>
         </div>
       </div>
     </div>

@@ -2,19 +2,21 @@ import Button from "./Button";
 
 const EarlyAccess = () => {
   return (
-    <div>
+    <div className="w-full rounded-md bg-[#1B2330] shadow-md mt-40 flex flex-col items-center gap-6 py-10 px-7">
       <h2>Get early access today</h2>
-      <p>
+      <p className="text-center">
         It only takes a minute to sign up and our free starter tier is extremely
         generous. If you have any questions, our support team would be happy to
         help you.
       </p>
-      <input
-        className="rounded-3xl bg-white text-black"
-        type="text"
-        placeholder="email@example.com"
-      />
-      <Button text="Get Started For Free" />
+      <div className="flex flex-wrap">
+        <input
+          className="rounded-3xl block mx-auto bg-white text-black"
+          type="text"
+          placeholder="email@example.com"
+        />
+        <Button text="Get Started For Free" />
+      </div>
     </div>
   );
 };
