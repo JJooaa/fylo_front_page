@@ -11,7 +11,7 @@ const EarlyAccess = () => {
       </p>
       <div className="flex flex-wrap">
         <input
-          className="rounded-3xl block mx-auto bg-white text-black"
+          className="rounded-3xl mx-auto w-full h-12  bg-white text-black"
           type="text"
           placeholder="email@example.com"
         />

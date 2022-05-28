@@ -17,11 +17,3 @@ main {
 p {
   font-family: "Open Sans", sans-serif;
 }
-
-#hero {
-  position: relative;
-  background-image: url("./images/bg-curvy-mobile.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  z-index: 100;
-}

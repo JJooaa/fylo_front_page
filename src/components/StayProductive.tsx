@@ -1,4 +1,5 @@
 import stayProductive from "../images/illustration-stay-productive.png";
+import arrowIcon from "../images/icon-arrow.svg";
 
 const StayProductive = () => {
   return (
@@ -21,8 +22,11 @@ const StayProductive = () => {
         live collaboration. No email attachments required.
       </p>
       <br />
-      <a href="" className="text-xs text-[#62E0D9]">
-        See how fylo works{" "}
+      <a
+        href=""
+        className="text-xs border-b pb-1 flex w-max gap-2 border-[#62e0d9] text-[#62E0D9]"
+      >
+        See how fylo works <img src={arrowIcon} alt="" />
       </a>
     </section>
   );
