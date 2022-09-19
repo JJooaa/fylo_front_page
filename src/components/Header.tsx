@@ -6,9 +6,15 @@ const Header = () => {
       <img src={logo} className="h-full" alt="fylo logo" />
       <nav>
         <ul className="flex max-w-xs gap-6 text-xs">
-          <li>Features</li>
-          <li>Team</li>
-          <li>Sign In</li>
+          <li className="cursor-pointer hover:font-bold hover:underline">
+            Features
+          </li>
+          <li className="cursor-pointer hover:font-bold hover:underline">
+            Team
+          </li>
+          <li className="cursor-pointer hover:font-bold hover:underline">
+            Sign In
+          </li>
         </ul>
       </nav>
     </header>

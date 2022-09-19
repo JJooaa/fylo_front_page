@@ -30,8 +30,9 @@ const TestimonialList = () => {
       id="customer-testimonials"
       className="mx-auto flex flex-wrap items-center gap-6 mt-40"
     >
-      {testimonialData.map((testimony) => (
+      {testimonialData.map((testimony, index) => (
         <Testimonial
+          key={index}
           text={testimony.text}
           image={testimony.image}
           name={testimony.name}

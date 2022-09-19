@@ -8,13 +8,15 @@ import Hero from "./components/Hero";
 
 function App() {
   return (
-    <main className="px-5 py-6">
-      <Header />
-      <Hero />
-      <BenefitList />
-      <StayProductive />
-      <TestimonialList />
-      <EarlyAccess />
+    <main>
+      <div className="px-5 py-6">
+        <Header />
+        <Hero />
+        <BenefitList />
+        <StayProductive />
+        <TestimonialList />
+        <EarlyAccess />
+      </div>
       <Footer />
     </main>
   );

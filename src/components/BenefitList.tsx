@@ -36,6 +36,7 @@ const BenefitList = () => {
     <div className="flex flex-col flex-wrap gap-20 mt-36">
       {benefitsItems.map((benefit) => (
         <Benefit
+          key={benefit.title}
           paragraph={benefit.paragraph}
           title={benefit.title}
           image={benefit.image}

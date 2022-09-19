@@ -7,6 +7,7 @@ const StayProductive = () => {
       <img
         src={stayProductive}
         alt="cartoons being productive, sketching on whiteboards"
+        className="mb-10"
       />
       <h2 className="font-bold text-center text-xl">
         Stay productive, wherever you are
