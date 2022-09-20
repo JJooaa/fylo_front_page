@@ -33,7 +33,7 @@ const benefitsItems = [
 
 const BenefitList = () => {
   return (
-    <div className="flex flex-col flex-wrap gap-20 mt-36">
+    <div className="flex mx-auto justify-evenly max-w-4xl flex-wrap gap-20 mt-36">
       {benefitsItems.map((benefit) => (
         <Benefit
           key={benefit.title}

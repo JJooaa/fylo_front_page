@@ -1,6 +1,6 @@
 const Button = ({ text }: { text: string }) => {
   return (
-    <button className="mt-8 block rounded-3xl w-60 font-semibold h-12 bg-gradient-to-b from-[#63E1D9] to-[#34A0CD] mx-auto">
+    <button className="rounded-3xl py-5 w-fit px-10 flex justify-center items-center font-semibold h-12 bg-gradient-to-b from-[#63E1D9] to-[#34A0CD] mx-auto">
       {text}
     </button>
   );
